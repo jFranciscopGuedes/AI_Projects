@@ -12,3 +12,5 @@ resultado = modelo.predict(dados)[0]
 
 # Mostrar saída
 print("Provável tsunami" if resultado == 1 else "Sem tsunami previsto")
+
+#Para correr -> python prever_tsunami_cli.py   
